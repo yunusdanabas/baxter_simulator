@@ -8,18 +8,18 @@
     <visual>
       <origin xyz="0.025 0.025 0.025"/>
       <geometry>
-        <box size="0.04 0.04 0.04" />
+        <box size="0.35 0.73 0.64" />
       </geometry>
     </visual>
     <collision>
       <origin xyz="0.025 0.025 0.025"/>
       <geometry>
-        <box size="0.04 0.04 0.04" />
+        <box size="0.35 0.73 0.64" />
       </geometry>
     </collision>
   </link>
   <gazebo reference="block">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/White</material>
      <mu1>1000</mu1>
      <mu2>1000</mu2>
   </gazebo>
